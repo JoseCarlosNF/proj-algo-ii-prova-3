@@ -1,6 +1,7 @@
-# -*- encodign: 
+# -*- encodign:
 def func_dispersao(x: int, tamanho_tabela: int = 13) -> int:
     return x % tamanho_tabela
+
 
 def imprime_resultado(tabela):
     for i_chave in range(len(tabela)):
